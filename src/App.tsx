@@ -12,9 +12,9 @@ function Copyright(): JSX.Element {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{" "}
+      <Link color="inherit" href="https://github.com/makmade">
+        Mak Made Inc.
+      </Link>
       {new Date().getFullYear()}
       {"."}
     </Typography>
@@ -38,7 +38,7 @@ export default function App(): JSX.Element {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Heading
+            MakSoft
           </Typography>
         </Toolbar>
       </AppBar>
